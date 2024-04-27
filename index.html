@@ -1,0 +1,227 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h3 class="title"><a href="index.html">Universal Art</a></h3>
+        <nav>
+          <a href="project.html">Tutorial</a>
+          <a href="contact.html">Contacts</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="jumbotron">
+        <div class="jumbotron">
+          <h1 class="jumbotron-title">
+            "It is important to know How to Draw, Before you Start Drawing"
+          </h1>
+          <div class="header-flex">
+            <div>
+              <h2 class="jumbotron-text">
+                "You are not limited by can or can't do. Try it step-by-step,
+                anywhere, anytime, without worries. Let's start, don't be
+                doubtful"
+              </h2>
+              <div class="mini-text-flex">
+                <p class="mini-text">Try drawing here</p>
+                <!-- <button id="icon-up" onclick="changeText()">
+                  <i class="far fa-hand-point-up"></i>
+                </button>
+                <button id="icon-down" class="icon-down">
+                  <i class="far fa-hand-point-down" onclick="changeText()"></i>
+                </button> -->
+              </div>
+            </div>
+            <div>
+              <img
+                class="jumbotron-img"
+                src="https://advance2-exam.netlify.app/assets/img-header2.png"
+                alt="gambar"
+                width="auto"
+                height="300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ------------------------ Meeting 10----------------------- -->
+      <div class="main-content">
+        <aside>
+          <div class="profile">
+            <h3 class="aside-title">Universal Art</h3>
+            <img
+              class="profile-picture"
+              src="https://advance2-exam.netlify.app/assets/profile-photo.jpg"
+              alt="idontknowwhothisis"
+              width="150px"
+              height="auto"
+            />
+            <!-- ------------------------ Meeting 11----------------------- -->
+            <div class="toggle">
+              <button class="btn" id="green">
+                <i class="fa fa-thumbs-up fa-lg"></i>
+              </button>
+              <button class="btn" id="red">
+                <i class="fa fa-thumbs-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="search-tags-container">
+            <div class="input-tag">
+              <h3 class="aside-title">Search Here</h3>
+              <input id="myInput" type="text" placeholder="Search..." />
+              <span class="addBtn" onclick="newElement()"> Search</span>
+            </div>
+            <ul id="myUL" class="search-tags-list">
+              <li class="search-tags-item">Art</li>
+              <li class="search-tags-item">More Art</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="content">
+          <article id="my-project">
+            <h3 class="article-title">My Art</h3>
+            <div class="project-container">
+              <div class="project">
+                <img
+                  src="https://advance2-exam.netlify.app/assets/drawing1.jpg"
+                  alt="terraria"
+                  width="380px"
+                  height="210px"
+                />
+                <h4 class="project-title">Some Astronaut</h4>
+                <p class="project-description">
+                  An astronaut walking through a metal hallway
+                </p>
+              </div>
+              <div class="project">
+                <img
+                  src="https://advance2-exam.netlify.app/assets/drawing2.jpg"
+                  alt="calamity"
+                  width="430px"
+                  height="210px"
+                />
+                <h4 class="project-title">An Old Looking Car</h4>
+                <p class="project-description">It's just an old looking car</p>
+              </div>
+            </div>
+
+            <div class="project-container">
+              <div class="project">
+                <img
+                  src="https://advance2-exam.netlify.app/assets/drawing3.jpg"
+                  alt="soundcloud"
+                  width="450px"
+                  height="260px"
+                />
+                <h4 class="project-title">Weird Cat wearing a Dress</h4>
+                <p class="project-description">It's a cat wearing a dress</p>
+              </div>
+              <div class="project">
+                <img
+                  src="https://advance2-exam.netlify.app/assets/drawing4.jpg"
+                  alt="sols"
+                  width="480px"
+                  height="280px"
+                />
+                <h4 class="project-title">A Moon</h4>
+                <p class="project-description">It's a moon</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="content">
+            <!-- ------------------------ Meeting 11----------------------- -->
+            <article id="video">
+              <div class="item-video">
+                <h3 class="article-title">Tips on How to Draw</h3>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/r55e_OuyWKg?si=e5eL29O4OorTzQ1V"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+
+                <!-- <h3 class="article-title">Coding is Not Difficult !</h3>
+                <iframe
+                  class="video-content"
+                  width="700px"
+                  height="400px"
+                  src="https://www.youtube.com/embed/hb7Q33ysCwI"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe> -->
+              </div>
+            </article>
+            <article id="maps">
+              <div class="maps">
+                <!-- <h3 class="article-title">Location</h3> -->
+                <div class="location">
+                  <!-- <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.1041217472043!2d115.23826581416502!3d-8.681647890800283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f88bb37a69%3A0xdf8443f1fabfe305!2sPT.Timedoor%20Indonesia!5e0!3m2!1sen!2sid!4v1622688384272!5m2!1sen!2sid"
+                    width="500"
+                    height="350"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe> -->
+                  <div class="maps-text">
+                    <!-- <h3>Timedoor Coding Academy</h3>
+                                <p>Timedoor Coding Academy adalah bagian dari PT Timedoor Indonesia, <br>
+                                tempat penulis belajar konsep programming sehingga bisa membuat Blog ini.</p> -->
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <h3 class="info-top">Universal Art</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2021. Universal Art. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
